@@ -1,0 +1,63 @@
+
+/* top样式 */
+.top{
+    height: 59px;
+    line-height: 59px;
+    background:url(../img/topBg.png) no-repeat;
+}
+.top-wrap{
+    width: 1338px;
+    max-width: 1338px;
+    margin: 0 auto;
+    position: relative;
+    font-family: SimSun;
+}
+.logo{
+    display: inline-block;
+    width: 180px;
+    height: 58px;
+    text-align: center;
+    background-color: #ff6821;
+}
+.logo>img{
+    vertical-align: middle;
+}
+.welcom{
+    width: 358px;
+    color: #fff;
+    margin-left: 27px;
+    letter-spacing: 0.8px;
+}
+.links>a{
+    display: block;
+    float: left;
+    width: 110px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #272727;
+    color: #fff;
+    border-radius: 15px;
+    margin: 17px 0 15px 11px;
+}
+.links>a:hover{
+    background-color: #515151;
+}
+.phone{
+    margin-left: 15px;
+}
+.phone>img{
+    vertical-align: middle;
+}
+/* home-logo */
+.home-logo{
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 160px;
+    background: url(../img/home-logo-bg.png) center center no-repeat;
+    z-index: 10;
+}

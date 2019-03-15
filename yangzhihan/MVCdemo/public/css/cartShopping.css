@@ -1,0 +1,302 @@
+.main{
+    width: 1338px;
+    margin: 0 auto;
+    max-width: 1338px;
+    margin-bottom: 5px;
+}
+.main .tab{
+    margin-top: 20px;
+    position: relative;
+    width: 1338px;
+    height: 45px;
+    z-index: 0;
+}
+.main .tab .tab-title{
+    position: relative;
+    display: block;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #ff7900;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 22.5px;
+    z-index: 2;
+}
+.main .tab .tab-items{
+    position: relative;
+    width: 1180px;
+    height: 45px;
+    margin-left: -22px;
+    z-index: 1;
+}
+.main .tab .tab-items .item{
+    width: 310px;
+    height: 45px;
+    line-height: 52px;
+    text-align: center;
+    background: url(../img/cart-item.png) no-repeat;
+    margin-left: -20px;
+    float: left;
+}
+.main .tab .tab-items .on{
+    width: 330px;
+    background: url(../img/cart-on.png) repeat;
+}
+.main .tab .tab-items .item .itemNum{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 8px;
+    background-color: #ffffff;
+    color: #c3c3c3;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 20px;
+}
+.main .tab .tab-items .item .itemWord{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.main .tab .tab-items .on .itemNum{
+    background-color: #ff7900;
+    color: #ffffff;
+}
+/* 无商品显示页面 */
+.main .contentNo{
+    position: relative;
+    width: 1338px;
+    height: auto;
+    margin: 70px auto 175px auto;
+    text-align: center;
+    display: none;
+}
+.main .contentNo>img{
+    margin: 5px auto;
+}
+.main .contentNo .fonts{
+    display: block;
+    height: 40px;
+    margin: 8px auto;
+    font-size: 30px;
+    color: #ff7900;
+}
+.main .contentNo .link{
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: '\5b8b\4f53';
+    font-size: 14px;
+}
+.main .contentNo .link>a{
+    color: #656565;
+    margin-right: 40px;
+    text-decoration: underline;
+}
+/* 有商品 */
+.main .content{
+    margin-top: 10px;
+}
+.main .content .title{
+    position: relative;
+    width: 1338px;
+    height: 35px;
+    background-color: #e3e3e3;
+}
+.main .content .title>span{
+    display: block;
+    width: 110px;
+    height: 15px;
+    line-height: 15px;
+    margin: 10px auto;
+    font-family: '\5b8b\4f53';
+    text-align: center;
+}
+.main .content .list>ul{
+    position: relative;
+    width: 1338px;
+    height: auto;
+    
+}
+.drawinfor>li{
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.scort{
+    margin-top:20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial
+}
+.main .content .list>ul>li{
+    position: relative;
+    width: 1338px;
+    height: 108px;
+    border-bottom: 1px solid #cccccc;
+    color: #000;
+    font-family: '\5b8b\4f53';
+}
+.main .content .list>ul>li .check{
+    margin-left: 24px;
+    margin-top: 48px;
+}
+.main .content .list>ul>li .img{
+    display: block;
+    margin-left: 20px;
+    margin-top: 13px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #cccccc;
+    width: 80px;
+}
+.main .content .list>ul>li .name{
+    display: block;
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-right: 15px;
+    width: 220px;
+    height: 82px;
+    line-height: 15px;
+    overflow: hidden;
+    color: #000;
+}
+.main .content .list>ul>li .prise{
+    display: block;
+    margin-top: 14px;
+    width: 105px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.main .content .list>ul>li .spec{
+    position: relative;
+    display: block;
+    margin-top: 13px;
+    width: 350px;
+    height: 84px;
+    line-height: 25px;
+    text-align: center;
+}
+.main .content .list>ul>li .num{
+    display: block;
+    position: relative;
+    margin-top: 14px;
+    width: 128px;
+    height: 25px;
+    font-family: Arial;
+}
+.main .content .list>ul>li .num .changNums{
+    display: block;
+    position: relative;
+    width: 90px;
+    height: 25px;
+    margin: 0 auto;
+}
+.main .content .list>ul>li .num .changNums .minus{
+    display: block;
+    width: 17px;
+    height: 23px;
+    line-height: 25px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-right: none;
+    color: #000;
+}
+.main .content .list>ul>li .num .changNums .itNum{
+    width: 37px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    font-family: '\5b8b\4f53';
+    font-size: 12px;
+    outline: none;
+}
+.main .content .list>ul>li .num .changNums .add{
+    display: block;
+    width: 17px;
+    height: 23px;
+    line-height: 25px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-left: none;
+    color: #000;
+}
+.main .content .list>ul>li .operate{
+    width: 100px;
+    margin-left: 40px;
+    display: block;
+    margin-top: 14px;
+    height: 82px;
+}
+.main .content .list .cartFoot{
+    position: relative;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    width: 1300px;
+    height: 51px;
+    line-height: 50px;
+    background-color: #e3e3e3;
+    font-family: '\5b8b\4f53';
+}
+.main .content .list .cartFoot .checkAll{
+    margin-left: 24px;
+    margin-top: 18px;
+}
+.main .content .list .cartFoot label{
+    margin-left: 7px;
+    cursor: pointer;
+}
+.main .content .list .cartFoot .delete{
+    display: block;
+    margin-top: 16px;
+    height: 16px;
+    line-height: 16px;
+    color: #000;
+    margin-left: 30px;
+}
+.main .content .list .cartFoot .showWord{
+    display: block;
+    position: relative;
+    margin-left: 580px;
+}
+.main .content .list .cartFoot .showWord .allNum{
+    margin: 0 2px;
+    color: #ff0000;
+    font-weight: 700;
+}
+.main .content .list .cartFoot .totalPrise{
+    margin: 9px 2px;
+    font-size: 24px;
+    color: #ff0000;
+    font-family: Arial;
+}
+.main .content .list .cartFoot .fillBtn{
+    position: relative;
+    display: block;
+    width: 202px;
+    height: 51px;
+    line-height: 51px;
+    background-color: #ff7900;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25.5px;
+    margin-right: -38px;
+    font-weight: bold;
+}
+.upimg{
+    width: 80px;
+}

@@ -1,0 +1,394 @@
+.main{
+    width: 1338px;
+    margin: 0 auto;
+    max-width: 1338px;
+    margin-bottom: 5px;
+}
+.main .tab{
+    margin-top: 20px;
+    position: relative;
+    width: 1338px;
+    height: 45px;
+    z-index: 0;
+}
+.main .tab .tab-title{
+    position: relative;
+    display: block;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #ff7900;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 22.5px;
+    z-index: 2;
+}
+.main .tab .tab-items{
+    position: relative;
+    width: 1180px;
+    height: 45px;
+    margin-left: -22px;
+    z-index: 1;
+}
+.main .tab .tab-items .item{
+    width: 310px;
+    height: 45px;
+    line-height: 52px;
+    text-align: center;
+    background: url(../img/cart-item.png) no-repeat;
+    margin-left: -20px;
+    float: left;
+}
+.main .tab .tab-items .on{
+    width: 330px;
+    background: url(../img/cart-on.png) repeat;
+}
+.main .tab .tab-items .two{
+    width: 310px;
+    background: url(../img/orderIfm-title.png) no-repeat;
+}
+.main .tab .tab-items .item .itemNum{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 8px;
+    background-color: #ffffff;
+    color: #c3c3c3;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 20px;
+}
+.main .tab .tab-items .item .itemWord{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.main .tab .tab-items .on .itemNum{
+    background-color: #ff7900;
+    color: #ffffff;
+}
+/* 订单标题 */
+.order-title{
+    margin-top: 10px;
+    position: relative;
+    width: 1338px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #e3e3e3;
+}
+.order-title>span{
+    line-height: 15px;
+    margin-left: 24px;
+    font-family: '\5b8b\4f53';
+    font-weight: bold;
+    color: #000;
+}
+/* 订单内容 */
+.main .content{
+    position: relative;
+    width: 1336px;
+    height: auto;
+    border: 1px solid #F0F0F0;
+    border-top: none;
+    margin-bottom: 41px;
+}
+.main .content-wrap{
+    position: relative;
+    width: 1290px;
+    height: auto;
+    margin: auto 24px;
+}
+.main .content-wrap .address-title{
+    height: 48px;
+    line-height: 48px;
+    font-family: '\5b8b\4f53';
+    color: #000;
+    font-weight: bold;
+    position: relative
+}
+.main .content-wrap .address-list{
+    padding-bottom: 26px;
+    position: relative;
+    border-bottom: 1px solid #F0F0F0;
+}
+.main .content-wrap .address-list .items{
+    position: relative;
+    max-width: 1110px;
+    height: auto;
+    overflow: hidden;
+}
+.main .content-wrap .address-list .items .item{
+    position: relative;
+    display: block;
+    width: 198px;
+    height: 118px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    margin-right: 22px;
+    float: left;
+}
+.main .content-wrap .address-list .items .on{
+    border: 1px solid #ffcc7d;
+   
+}
+.main .content-wrap .address-list .items .item>p{
+    display: block;
+    position: relative;
+    width: 180px;
+    min-height: 18px;
+    margin: 0 auto;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .content-wrap .address-list .items .item .tag{
+    margin-top: 3px;
+    color: #ccc;
+}
+.main .content-wrap .address-list .items .item p .name{
+    position: relative;
+    color: #000;
+    font-weight: bold;
+}
+.main .content-wrap .address-list .items .item .address{
+    margin-top: 5px;
+}
+.main .content-wrap .address-list .items .item .phone{
+    margin-top: 5px;
+}
+.main .content-wrap .address-list .btns{
+    position: relative;
+    width: 85px;
+    height: 120px;
+}
+.main .content-wrap .address-list .btns>span{
+    display: block;
+    width: 83px;
+    height: 28px;
+    border: 1px solid #999;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+/* 订单列表 */
+.main .content-wrap .order-tab-title{
+    position: relative;
+    width: 1290px;
+    height: 36px;
+    background-color: #e3e3e3;
+}
+.main .content-wrap .order-tab-title .subTitle{
+    width: 140px;
+    height: 15px;
+    line-height: 15px;
+    margin: 10px auto;
+    font-family: '\5b8b\4f53';
+    text-align: center;
+}
+.main .content-wrap .order-tab-main{
+    position: relative;
+    width: 1290px;
+    height: auto;
+    padding:14px 0;
+}
+.main .content-wrap .order-tab-main>div{
+    float: left;
+    width: 140px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
+.main .content-wrap .order-tab-main>.img{
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+}
+.main .content-wrap .order-tab-main>.name{
+    position: relative;
+    margin-left: 14px;
+    margin-right: 15px;
+    width: 205px;
+    height: 82px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #000;
+}
+.main .content-wrap .order-tab-main>.total{
+    display: block;
+    position: relative;
+    width: 370px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    overflow: hidden;
+    margin-left: 85px;
+}
+.main .content-wrap .order-tab-main>.total>.totalName{
+    display: block;
+    width: 140px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    overflow: hidden;
+}
+.main .content-wrap .order-tab-main>.total>.totalName>span{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+}
+.main .content-wrap .order-tab-font{
+    border-top: 1px solid #F0F0F0;
+    padding: 14px 40px;
+    font-family: '\5b8b\4f53';
+}
+.main .content-wrap .order-tab-font>div{
+    text-align: right;
+}
+.main .content-wrap .order-tab-font>div>.prise{
+    color: #ff0000;
+    font-weight: bold;
+    font-family: Arial;
+}
+.main .content-wrap .order-remarks{
+    padding-bottom: 20px;
+}
+.main .content-wrap .order-remarks>span{
+    display: block;
+    width: 50%;
+    height: 42px;
+    line-height: 42px;
+    font-family: '\5b8b\4f53';
+    color: #000;
+    font-weight: bold;
+}
+.main .content-wrap .order-remarks>input{
+    width: 594px;
+    height: 34px;
+    line-height: 30px;
+    text-indent: 5px;
+    outline-style: none;
+    font-family: SimSun;
+    font-size: 12px;
+    border: 1px solid #ccc;
+}
+.main .content-wrap .orderBtn{
+    width: 93.6%;
+    padding: 22px 40px;
+    border-top: 1px solid #F0F0F0;
+}
+.main .content-wrap .orderBtn>a{
+    display: block;
+    width: 202px;
+    height: 51px;
+    line-height: 51px;
+    background-color: #ff7900;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25.5px;
+}
+.main .content-wrap .orderBtn .totalAllPart{
+    width: 200px;
+    height: 51px;
+    line-height: 51px;
+    text-align: right;
+    margin-right: 24px;
+    font-family: SimSun;
+    font-size: 14px;
+}
+.main .content-wrap .orderBtn .totalAllPart>span{
+    color: #ff0000;
+    font-size: 24px;
+    font-family: Arial;
+}
+/* 新增地址弹框 */
+.newAddre{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/orderIfmBac.png) left top repeat;
+    z-index: 500;
+    overflow: hidden;
+    display: none;
+}
+.newAddre .mask{    
+    width: 658px;
+    height: 400px;
+    margin-left: -310px;
+    margin-top: 66px;
+    position: fixed;
+    left: 50%;
+    top: 70px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.newAddre .mask .mask-title{    
+    font-size: 20px;
+    padding: 13px 15px 12px 15px;
+    position: relative;
+}
+.newAddre .mask .mask-title>span{    
+    padding-left: 41px;
+    line-height: 48px;
+    color: #fd7a04;
+    font-weight: bold;
+    font-size: 16px;
+}
+.newAddre .mask .mask-title>a{    
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    border-radius: 5px;
+    background: #fd7a04 url(../img/orderIfm-mask-close.png) no-repeat;
+    background-position: 4px -37px;
+}
+.newAddre .mask table tr td{   
+    padding: 8px 0;
+}
+.newAddre .mask table tr td:first-child{   
+    width: 90px;
+}
+.newAddre .mask table tr td .inputs{   
+    width: 306px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    text-indent: 5px;
+}
+.newAddre .mask table tr td .mr{   
+    vertical-align: middle;
+}
+.newAddre .mask table tr td select{   
+    width: 100px;
+    height: 28px;
+}
+.newAddre .mask .addreBtn{   
+    border-radius: 18px;
+    background-color: #ff7900;
+    color: #fff;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #e9731b;
+    text-align: center;
+    font-size: 16px;    
+    margin: 42px auto;
+}

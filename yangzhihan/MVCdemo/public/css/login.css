@@ -1,0 +1,203 @@
+.login-wrap{
+    background: #e3e3e3 url(../img/login_Bg6.png) left top repeat;
+    min-height: 100%;
+    height: auto !important;
+    position: relative;
+    min-width: 1338px;
+    overflow: hidden;
+}
+.logincontainer{
+    margin-bottom: 5px;
+    position: relative;
+    top: -5px;
+}
+.topbg{
+    height: 8px;
+    background: #e3e3e3 url(../img/login_Bg6.png) left top repeat;
+}
+.mask{
+    width: 100%;
+    height: 84px;
+    position: absolute;
+    top: 8px;
+    background: rgba(139, 138, 138, 0.1);
+    /* box-shadow: 5px 5px 8px #ccc; */
+}
+.loginmain{
+    width: 100%;
+    height: 544px;
+    background: url(../img/login_ImportBg.png) center center no-repeat;
+    margin: 89px auto 110px auto;
+    background-size: cover;
+    box-shadow: 0px 0px 2px 2.5px #c2c2c3;
+}
+.loginmain-wrap{
+    width: 1338px;
+    margin: 0 auto;
+    position: relative;
+}
+.loginImport{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    padding: 40px 30px 26px 30px;
+    background-color: #fbefed;
+}
+.logintitle{
+    position: relative;
+    height: 0;
+    border-top: 1px solid #dad0cf;
+    border-bottom: 1px solid #fff;
+    margin-top: 15px
+}
+.logintitle>img{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    display: block;
+    vertical-align: middle;
+    background-color: #fbefed;
+}
+.loginFormWrap{
+    position: relative;
+    margin-top: 63px;
+}
+.login-error1{
+    display: none;
+    position: absolute;
+    width: 320px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #e4393c;
+    padding-left: 25px;
+    background: #ffebeb url(../img/login-Error.png) 5px center no-repeat;
+    top: -38px;
+    color: #ff3300;
+    overflow: hidden;
+    font-family: \u5b8b\u4f53; 
+}
+.login-error2{
+    display: none;
+    position: absolute;
+    width: 320px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #e4393c;
+    padding-left: 25px;
+    background: #ffebeb url(../img/login-Error.png) 5px center no-repeat;
+    top: -38px;
+    color: #ff3300;
+    overflow: hidden;
+    font-family: \u5b8b\u4f53; 
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.loginInput1{
+    background:url(../img/login-usericon.png) 18px center no-repeat;
+    margin-bottom: 10px;
+}
+.loginInput2{
+    background:url(../img/login-lockicon.png) 20px center no-repeat;
+    margin:15px 0 10px 0;
+}
+.opti{
+    height: 30px;
+}
+.nullname{
+    color: red;
+    font-size: 12px;
+    margin-left: 15px;
+    display: none;
+}
+.nullpass{
+    color: red;
+    font-size: 12px;
+    margin-left: 15px;
+     display: none;
+}
+.loginInput{
+    width: 300px;
+    height: 39px;
+    border: 2px solid #bebebe;
+    border-radius: 20px;
+    background-color: #f6f7f8;
+    outline: none;
+    padding-left: 40px;
+    padding-right: 5px;
+    font-family: SimSun;
+    text-indent: 13px
+}
+.autologin{
+    vertical-align: middle;
+    margin: 0 5px 2px 0;
+    box-sizing: border-box;
+    padding: 0;
+    outline: none !important;
+}
+.loginSubmitBtn {
+    width: 345px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #ff7900;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    -webkit-appearance: button;
+    cursor: pointer;
+    margin: 25px 0 15px 0;
+}
+.account{
+    width: 100%;
+    height: 19px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.noAccount{
+    width: 170px;
+    font-family: SimSun;
+    color: #666;
+    float: left;
+}
+.noAccount a{
+    color: #ff7900;
+}
+.forgetpass{
+    float: right;
+    font-family: SimSun;
+    color: #666;
+}
+.otherWaylogin{
+    margin-top: 60px;
+    border-top: 1px solid #dad0cf;
+    position: relative;
+}
+.otherwayTitle{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    background-color: #faefed;
+    padding: 0 15px;
+    margin-left: -78px;
+}
+.ways{
+    margin-top: 26px;
+}
+.ways a{
+    display: block;
+    float: left;
+    width: 33.2%;
+    text-align: center
+}
+.ways p{
+    font-size: 16px;
+    color: #828282;
+    line-height: 35px;
+}

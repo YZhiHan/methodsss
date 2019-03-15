@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>萌热MOEHOT</title>
+    <link href="../img/favicon.ico" rel="shortcut icon">
+    <!-- 设置icon -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/cartShopping.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- 确认购物清单 -->
+    <!-- top栏 -->
+    <div id="head" style="margin-bottom:10px"></div>
+    <!-- main -->
+    <div class="main">
+        <div class="tab clearfix">
+            <div class="tab-title fl">购物车</div>
+            <div class="tab-items clearfix fl">
+                <div class="item on">
+                    <span class="itemNum">1</span>
+                    <span class="itemWord">确认购物清单</span>
+                </div>
+                <div class="item">
+                    <span class="itemNum">2</span>
+                    <span class="itemWord">确认订单信息</span>
+                </div>
+                <div class="item">
+                    <span class="itemNum">3</span>
+                    <span class="itemWord">成功提交订单</span>
+                </div>
+                <div class="item">
+                    <span class="itemNum">4</span>
+                    <span class="itemWord">订单支付</span>
+                </div>
+            </div>
+        </div>
+        <!-- 无商品显示页 -->
+        <div class="contentNo">
+            <img src="../img/cart-content-no.png" alt="">
+            <span class="fonts">购物篮空空，快去买买买</span>
+            <span class="link">
+                <a href="">去首页选购</a>
+                <a href="">查看热门商品</a>
+            </span>
+        </div>
+        <!-- 有商品 -->
+        <div class="content">
+            <div class="title clearfix">
+                <span class="fl" style="width:109px"></span>
+                <span class="fl" style="width:331px">商品信息</span>
+                <span class="fl" style="width:240px">商品分类</span>
+                <span class="fl" style="width:27px">单价</span>
+                <span class="fl" style="width:268px">数量</span>
+                <span class="fl" style="width:40px;margin-left:-29px">库存</span>
+                <span class="fl" style="width:144px">合计</span>
+                <span class="fl" style="width:148px">操作</span>
+            </div>
+            <div class="list">
+                <ul class="drawinfor">
+                   <!-- 数据 -->
+                </ul>
+                <div class="cartFoot clearfix">
+                    <input type="checkbox" class="checkAll fl"> 
+                    <label for="checkAll" class="fl">全选</label>
+                    <span class="showWord fl">
+                        已选择
+                        <span class="allNum">0</span>
+                        件商品&nbsp;&nbsp;总价（不含运费）
+                    </span>
+                    <span class="totalPrise">
+                        ￥
+                        <span class="totalMoney">0.00</span>
+                    </span>
+                    <a class="fillBtn fr">填写并确认订单</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- foot栏 -->
+    <iframe src="baseHtml/foot.html" frameborder="1" width="100%" scrolling="no" height="194px"></iframe>
+    <!-- 引入head -->
+    <script>
+        $('#head').load('baseHTML/head.html');
+    </script>
+      <script src="../js/carshopping.js"></script>
+</body>
+
+</html>

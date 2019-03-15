@@ -1,0 +1,201 @@
+.main{
+    width: 1338px;
+    margin: 0 auto;
+}
+/* title */
+.main .searchBox{
+    height: 30px;
+    line-height: 31px;
+    background: #4a4a4a;
+    color: #fff;
+    font-size: 15px;
+    font-family: SimSun;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.main .searchBox>a{
+    float: left;
+    display: inline-block;
+    width: 76px;
+    background: #ff7900;
+    height: 100%;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+}
+.main .searchBox .GT{
+    display: inline-block;
+    width: 10px;
+    height: 30px;
+    margin: 0 10px;
+    background: url(../img/search-bar.png) center no-repeat;
+}
+.main .searchBox>span:last-child{
+    color: #fff;
+    font-size: 15px;
+    font-family: SimSun;
+    font-weight: 600;
+    line-height: 31px;
+}
+.boxss{
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    background: #f0f0f0;
+}
+.boxss>span{
+    font-size: 12px;
+    color: #ff7900;
+    line-height: 25px;
+    height: 25px;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    padding: 2px 10px;
+    margin-left: 10px;
+}
+.searchBtns{
+    width: 100%;
+    height: 30px;
+    background: #757575;
+    margin-top: -2px;
+}
+.searchBtns>a{
+    float: left;
+    width: 48px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #363636;
+    background: #4a4a4a;
+    margin: 5px 0 0 11px;
+    font-family: "SimSun";
+    font-size: 12px;
+    line-height: 18px;
+}
+.searchBtns>a:hover{
+    border: 1px solid #fff;
+    background: #ff7900;
+}
+.searchBtns>span{
+    float: right;
+    padding: 0 23px;
+    line-height: 20px;
+    background: #fff;
+    font-family: "SimSun";
+    font-size: 12px;
+    color: #4a4a4a;
+    margin: 5px 6px 0 0;
+    border-radius: 50px;
+}
+
+
+
+/* shop-list */
+.shop-list{
+    margin-bottom: 10px;
+}
+.shop-list-title{
+    background-color: #4a4a4a;
+    height: 40px;
+    line-height: 40px;
+}
+.shop-list-title>span{
+    border-left: 8px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    width: 144px;
+    height: 19px;
+    margin-left: 15px;
+    padding-left: 8px;
+}
+.shop-list-items{
+    background-color: #f0f0f0;
+    padding-top: 6px;
+    width: 100%;
+}
+.shop-list-items .item{
+    width: 249px;
+    display: block;
+    float: left;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 4px 8px 4.5px;
+}
+.shop-list-items .item .topTitle{
+    position: absolute;
+    width: 233px;
+    top: 0;
+    left: 0;
+    padding: 0 12px;
+    line-height: 51px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 51px;
+    opacity: 0;
+    transition: .8s;
+}
+.shop-list-items .item .topTitle .titleText{
+    color: #333;
+    letter-spacing: 0.5px;
+}
+.shop-list-items .item .topTitle .titleText>span{
+    color: #ff7900;
+    font-weight: bold;
+}
+.shop-list-items .item .topTitle .btn{
+    display: block;
+    min-width: 58px;
+    width: 58px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #1a9ccd;
+    color: #fff;
+    text-align: center;
+    margin-top: 13px;
+}
+.shop-list-items .item .bottomTitle{
+    overflow: hidden;
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    bottom: 4px;
+    padding: 5px 4px;
+    background: url(../img/home-shop-bac.png) left top repeat;
+    transition: .8s;
+    opacity: 0;
+    width: 94%;
+}
+.shop-list-items .item .bottomTitle .bottomPrice{
+    display: block;
+    text-align: right;
+    color: #ada9a5;
+    font-size: 14px;
+    font-family: SimSun;
+    padding: 5px 0 3px 0;
+}
+.shop-list-items .item .bottomTitle .bottomPrice>span{
+    color: #ec871a;
+    font-weight: bold;
+    font-family: Arial;
+}
+.shop-list-items .item .bottomTitle .bottomProName{
+    color: #fff;
+    font-size: 14px;
+    font-family: SimSun;
+    letter-spacing: .5px;
+    width: 241px;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*  */
+.shop-list-items .item:hover .topTitle{
+    opacity: 1;
+}
+.shop-list-items .item:hover .bottomTitle{
+    opacity: 1;
+}

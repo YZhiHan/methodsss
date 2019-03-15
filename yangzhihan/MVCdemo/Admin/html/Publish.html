@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/publish.css">
+        <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="../../layer-v3.1.1/layer/layer.js"></script>
+        <style>
+        .pic{
+            height: 50px;  
+            margin: 10px 0 0 0;   
+        }
+        .pic img{
+                width: 50px;
+                height: 50px;
+        }
+        
+        </style>
+</head>
+
+<body>
+        <div id="top"></div>
+        <div class="container">
+                <div class="title">
+                        <span>商品</span>
+                        <span>></span>
+                        <span>商品发布</span>
+                </div>
+                <h4>基础信息</h4>
+                <div class="dl">
+                        <span>商品名称:</span>
+                        <input type="text" class="name">
+                </div>
+                <div class="dl">
+                        <span>商品分类:</span>
+                        <select name="" class="type" id="type">
+
+                        </select>
+                        <select name="" class="type" id="type_">
+
+                        </select>
+                </div>
+                <div class="dl">
+                        <span>商品库存:</span>
+                        <input type="number" class="scort">
+                </div>
+                <div class="dl">
+                        <span>商品编号:</span>
+                        <input type="number" class="bnum" placeholder="不用填写，自动生成">
+                </div>
+                <div class="dl">
+                        <span>商品描述:</span>
+                        <input type="textarea" class="ms">
+                </div>
+                <h4>购买信息</h4>
+                <div class="dl">
+                        <span>定金价格:</span>
+                        <input type="number" class="cost">
+                </div>
+                <div class="dl">
+                        <span>销售价格:</span>
+                        <input type="number" class="selling">
+                </div>
+                <div class="dl">
+                        <span>是否上架:</span>
+                        <select name="" id="state">
+                                <option value="下架">下架</option>
+                                <option value="上架">上架</option>
+                        </select>
+                </div>
+                <h4>商品图片</h4>
+                <div class="dl">
+                        <span>图片上传:</span>
+                        <form action="" enctype="multipart/form-data" id="pic3">
+                                <input type="file" style="width:180px;" id="upload_img" name="pic[]" multiple>
+                                <input type="button" value="上传" id="upimg" onclick="upload()">
+                        </form>
+                        <div class="dl pic">
+                                        <!-- <img src="1.png" alt="">
+                                        <img src="1.png" alt=""> -->
+                                </div>
+                       
+                </div>
+               
+        </div>
+        <div id="tuwen" style="margin-left:140px;margin-top:90px;"></div>
+        <div id="keep">保 存</div>
+        <script>
+                $('#tuwen').load('ueditor.html');
+        </script>
+
+
+
+        <script src="../js/publish.js"></script>
+        <script>
+                $('#top').load('aside.html');
+        </script>
+</body>
+
+</html>

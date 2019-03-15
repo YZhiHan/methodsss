@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品分类</title>
+    <link rel="stylesheet" href="../css/productType.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../layer-v3.1.1/layer/layer.js"></script>
+    <style>
+        th,td{
+            width: 500px;
+            padding: 10px;
+        }
+        .xh{
+            width: 50px;
+            text-align: center;
+        }
+        td a{
+            color: blue;
+            font-size: 15px;
+        }
+        td input{
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--  -->
+    <div class="list">
+        <div class="col">
+            <div style="margin-left:30px;">商品分类名称：</div>
+            <input type="text" placeholder="请输入商品分类" id="settype">
+        </div>
+        <div class="col">
+            <select name="" id="chose">
+                <option value="type"></option>
+            </select>
+        </div>
+        <div class="bbtn">
+            <div class="btn" id="submit" onclick="submit(this)">保存</div>
+            <div class="btn" id="cancle" onclick="cale(this)">取消</div>
+        </div>
+    </div>
+    <!-- 头部公共样式 -->
+    <div id="top"></div>
+    <div class="container">
+        <div class="title">
+            <span>商品</span>
+            <span>></span>
+            <span>商品分类</span>
+        </div>
+        <div class="addBtn">添加商品分类</div>
+        <table border="1" cellspacing="0">
+            <thead>
+                <thead>
+                    <tr>
+                        <td class="xh">序号</td>
+                        <td>一级分类</td>
+                        <td>二级分类</td>
+                    </tr>
+                </thead>
+            <tbody class="conts">
+                <!-- 数据 区域 -->
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="../js/productType.js"></script>
+    <!-- 引入公共样式 -->
+    <script>
+        $('#top').load('aside.html');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="../img/favicon.ico" rel="shortcut icon">
+    <!-- 设置icon -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/person.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <style>
+    .isnomaluser{
+        margin-top: 20px;
+        color: orangered;
+        opacity: 0;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <!-- head -->
+    <div id="head" style="margin-bottom:10px"></div>
+    <!--  -->
+    <div class="centermain overhidden">
+        <div class="mainLeft f">
+            <div class="ordercenter bordercolor overhidden">
+                <p class="leftnav">
+                    <img src="../img/person-leftNavOrder.png" alt="">
+                    <span>未付订单</span>
+                </p>
+                <ul>
+                    <li>
+                        <a href="orderIfm.html">我的订单</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ordercenter    bordercolor overhidden">
+                <p class="leftnav">
+                    <img src="../img/person-leftNavPerson.png" alt="">
+                    <span>个人中心</span>
+                </p>
+                <ul>
+                    <li>
+                        <a href="">个人信息</a>
+                    </li>
+                    <!-- <li>
+                        <a href="">修改密码</a>
+                    </li>
+                    <li>
+                        <a href="">收货地址</a>
+                    </li>
+                    <li>
+                        <a href="">我的收藏</a>
+                    </li>
+                    <li>
+                        <a href="">我的消息</a>
+                    </li> -->
+
+                </ul>
+            </div>
+        </div>
+        <div class="mainRight f">
+            <div class="commonTop bordercolor">
+                <div class="commonInner">
+                    <ul class="typelink r">
+                        <li>
+                            <a href="" style="background:url(../img/person-liBg1.png) left center no-repeat" class="layer-one">
+                                <div class="type-link">
+                                    <p class="type-name">待发货</p>
+                                    <p class="typenum">
+                                        进行中
+                                        <span class="publicNum shipped">0</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" style="background:url(../img/person-liBg2.png) left center no-repeat" class="layer-one">
+                                <div class="type-link">
+                                    <p class="type-name">待收货</p>
+                                    <p class="typenum">
+                                        进行中
+                                        <span class="publicNum received">0</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" style="background:url(../img/person-liBg3.png) left center no-repeat" class="layer-one">
+                                <div class="type-link">
+                                    <p class="type-name">待评价</p>
+                                    <p class="typenum">
+                                        进行中
+                                        <span class="publicNum assess">0</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" style="background:url(../img/person-liBg4.png) left center no-repeat" class="layer-two">
+                                <div class="type-link">
+                                    <p class="weightPay">等待付款</p>
+                                    <p class="typenum1">
+                                        进行中
+                                        <span class="paynum">0</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" style="background:url(../img/person-liBg5.png) left center no-repeat" class="layer-two">
+                                <div class="type-link">
+                                    <p class="weightPay paid">已付定金</p>
+                                    <p class=" typenum typenum2">
+                                        进行中
+                                        <span class="paynum paied">0</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" style="background:url(../img/person-liBg6.png) left center no-repeat" class="layer-two">
+                                <div class="type-link">
+                                    <p class="weightPay paid">砍单提醒</p>
+                                    <p class=" typenum typenum3">
+                                        进行中
+                                        <span class="paynum hack">0</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" style="background:url(../img/person-liBg7.png) left center no-repeat" class="layer-two">
+                                <div class="type-link">
+                                    <p class="weightPay paid">尾款订单</p>
+                                    <p class=" typenum typenum4">
+                                        进行中
+                                        <span class="paynum final">0</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 个人信息 -->
+            <div class="personal clearfix ov">
+                <div class="personal-left fl">
+                    <div class="title oneTitle">昵称</div>
+                    <div class="cont">
+                        <input type="text" class="username">
+                    </div>
+                    <div class="title">邮箱</div>
+                    <div class="cont">
+                        <input type="text" class="email">
+                    </div>
+                    <div class="title">手机号</div>
+                    <div class="cont">
+                        <input type="text" class="phonenum">
+                    </div>
+                    <div class="title">性别</div>
+                    <div class="cont sex">
+                        <input type="radio" name="sex" value="男">
+                        男
+                        <input type="radio" name="sex" value="女">
+                        女
+                    </div>
+                </div>
+                <div class="personal-right fl">
+                    <div class="title oneTitle">生日</div>
+                    <div class="cont">
+                        <input type="text" class="birthday">
+                    </div>
+                    <div class="title">星座</div>
+                    <div class="cont">
+                        <input type="text" class="xz">
+                    </div>
+                    <div class="title">血型</div>
+                    <div class="cont">
+                        <select name="" id="selects">
+                            <option value="">请选择</option>
+                            <option value="">A</option>
+                            <option value="">B</option>
+                            <option value="">AB</option>
+                            <option value="">O</option>
+                        </select>
+                    </div>
+                    <div class="isnomaluser">正常用户</div>
+                </div>
+            </div>
+            <div class="personBtn">保存</div>
+        </div>
+    </div>
+    <!-- foot栏 -->
+    <iframe src="baseHtml/foot.html" frameborder="1" width="100%" scrolling="no" height="194px"></iframe>
+    <script src="../js/person.js"></script>
+
+
+    <!-- 引入head栏 -->
+    <script>
+        $('#head').load('baseHTML/head.html');
+    </script>
+</body>
+
+</html>

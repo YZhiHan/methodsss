@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 600px;
+            margin: 50px auto;
+            display: inline-block;
+            background: url(1.png) no-repeat;
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+        .container {
+            width: 400px;
+            height: 400px;
+            background: white;
+            position: absolute;
+            top: 69px;
+            left: 753px;
+            padding: 20px;
+        }
+        p{
+            font-size: 2rem;
+            font-weight: bolder;
+            color: rgb(38, 26, 146);
+        }
+        .main{
+            margin: 15px 0;
+            font-size: 1rem;
+            font-weight: bolder;
+            position: relative;
+        }
+        .box{
+            width: 338px;
+            display: -webkit-flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .box>input{
+            width: 236px;
+            height: 38px;
+            padding: 0 10px;
+        }
+        .up{
+            width: 90%;
+            height: 50px;
+            background: rgb(29, 29, 139);
+            color: white;
+            margin-top: 40px;
+            border: none;
+            margin-left: 20px;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        .c{
+            font-size: 12px;
+            color: rgb(255, 123, 0);
+        }
+        .pub{
+            color: red;
+            font-weight: normal;
+            position: absolute;
+            display: none;
+            left: 79px;
+            font-size: 12px;
+        }
+        .error{
+            top:-28px;
+        }
+        
+    </style>
+     <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script src="../../layer-v3.1.1/layer/layer.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <p>管理员登录</p>
+        <div class="main">
+            <div class="pub error">用户名或密码错误</div>
+            <div class="box"> 登录名： <input type="text" id="magname" placeholder="请输入登录名"></div>
+            <div class="pub noname">登录名不能为空</div>
+            <div class="box">密 码： <input type="password" id="magpassword" placeholder="请输入密码"></div>
+            <div class="pub nopaw">密码不能为空</div>
+        </div>
+        <button class="up" id="login">登 录</button>
+    </div>
+    <script src="../js/administrator-login.js"></script>
+</body>
+
+</html>

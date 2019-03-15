@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link href="../img/favicon.ico" rel="shortcut icon">
+    <!-- 设置icon -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/regist.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../layer-v3.1.1/layer/layer.js"></script>
+
+</head>
+
+<body>
+    <div class="regist-wrap clearfix">
+        <!-- top栏 -->
+        <div id="top"></div>
+        <!--注册内容 -->
+        <!-- 登录 -->
+        <div class="registcontainer">
+            <div class="topbg"></div>
+            <!-- <div class="shaw"> -->
+            <div class="mask">
+            </div>
+            <div class="registMatin">
+                <div class="registTopNote">
+                    <div class="registImgWarp">
+                        <img src="../img/regist-userTopBg.png" alt="">
+                        <p>如果您已经是萌热用户，请点击
+                            <a href="login.html">登录</a>
+                            <span class="nomaluser" style="color:rgba(255, 138, 71, 0.904);">正常用户</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="registImportCont">
+                    <div class="regist-content">
+                        <div class="registText f">
+                            <img src="../img/regist-leftTop.png" alt="">
+                            <p class="noticeregist">如果您还不是萌热会员，就赶紧注册吧！</p>
+                            <div class="text">
+                                <p>注册萌热会员能够享受以下特权：</p>
+                                <p>
+                                    <span>1</span>
+                                    官方正版的购物体验
+                                </p>
+                                <p>
+                                    <span>2</span>
+                                    一站式的二次元购物
+                                </p>
+                                <p>
+                                    <span>3</span>
+                                    多种优惠活动惊喜连连
+                                </p>
+                                <p>
+                                    <span>4</span>
+                                    限定、预约商品与日本同步
+                                </p>
+                            </div>
+                        </div>
+                        <div class="registSelect f">
+                            <div class="userinner">
+                                <form action="">
+                                    <table class="userTable">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p>手机号</p>
+                                                    <input type="text" class="phonenum" id="phonenum" style="padding-left:10px;">
+                                                    <p class="plase-setphone error">请输入手机号</p>
+                                                    <p class="error truenum">请输入正确的手机号码</p>
+                                                </td> 
+
+                                                <td>
+                                                    <p>密码</p>
+                                                    <input type="password" id="password" style="padding-left:10px;">
+                                                    <p class="plase-password error">请输入密码</p>
+                                                    <p class="error prompt">密码由字母开头，可包含_#`^等特殊字符的6`16位字符</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>用户名</p>
+                                                    <div class="clearfix">
+                                                        <input type="text" class="name f" id="username" style="padding-left:10px;">
+                                                        <p class="plase-setname error">
+                                                            请输入用户名
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p>确认密码</p>
+                                                    <input type="password" class="" id="againpassword" style="padding-left:10px;">
+                                                    <p class="plase-again error">请再次输入相同的密码</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label for="" class="userDeal">
+                                                        <input type="checkbox" class="check_"> 我已阅读并同意
+                                                        <a href="">《艾漫用户注册协议》</a>
+                                                        <span class="yes">请选择同意</span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <input type="button" value="注册萌热" class="RegistBtn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- foot栏 -->
+    <iframe src="baseHtml/foot.html" frameborder="1" width="100%" scrolling="no" height="194px"></iframe>
+    <script src="../js/regist.js"></script>
+    <script>
+        $('#top').load('baseHTML/top.html');
+    </script>
+</body>
+
+</html>

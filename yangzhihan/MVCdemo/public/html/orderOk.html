@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>萌热MOEHOT</title>
+    <link href="../img/favicon.ico" rel="shortcut icon">
+    <!-- 设置icon -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/homes.css">
+    <link rel="stylesheet" href="../css/orderOk.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../layer-v3.1.1/layer/layer.js"></script>
+</head>
+
+<body>
+    <!-- top栏 -->
+    <div id="head" style="margin-bottom:10px"></div>
+    <!-- main -->
+    <div class="main">
+        <!-- 头部 -->
+        <div class="tab clearfix">
+            <div class="tab-title fl">购物车</div>
+            <div class="tab-items clearfix fl">
+                <div class="item">
+                    <span class="itemNum">1</span>
+                    <span class="itemWord">确认购物清单</span>
+                </div>
+                <div class="item">
+                    <span class="itemNum">2</span>
+                    <span class="itemWord">确认订单信息</span>
+                </div>
+                <div class="item">
+                    <span class="itemNum">3</span>
+                    <span class="itemWord">成功提交订单</span>
+                </div>
+                <div class="item on">
+                    <span class="itemNum">4</span>
+                    <span class="itemWord">订单支付</span>
+                </div>
+            </div>
+        </div>
+        <!-- 提示图片 -->
+        <div class="imgText">
+            <img src="../img/orderOk-ts.png" alt="">
+            <span class="bigWord">订单提交成功，请尽快完成支付</span>
+            <span class="linkWord">请您在提交订单后24小时内完成支付，否则订单会自动取消</span>
+        </div>
+        <div class="payWay">
+            <div class="titleBar">选择支付方式</div>
+            <div class="contPay clearfix">
+                <label class="onePay fl">
+                    <input type="radio">
+                    <img src="../img/orderOk-zfb.png" alt="">
+                </label>
+                <a  class="payBtn fr">立即支付</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- foot栏 -->
+    <iframe src="baseHtml/foot.html" frameborder="1" width="100%" scrolling="no" height="194px"></iframe>
+    <!-- 引入head -->
+    <script>
+        $('#head').load('baseHTML/head.html');
+        $('.payBtn').on('click',function(){
+            layer.msg('支付成功', {icon: 8});
+            setTimeout(function(){
+                location.href = 'index.html';
+            },500)
+           
+        })
+    </script>
+</body>
+
+</html>

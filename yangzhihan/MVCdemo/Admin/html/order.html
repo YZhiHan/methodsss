@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/order.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <style>
+    .nones{
+        display: none;
+    }
+    table{
+        width: 90%;
+        text-align: center; 
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    table th{
+        text-align: center;
+        border: 1px solid gray;
+        padding: 10px 0;
+        background: aliceblue;
+    }
+   table  tr td{
+        text-align: center;
+        border: 1px solid gray;
+        padding: 10px 0;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    .product{
+        display: none;
+      
+    }
+    </style>
+</head>
+
+<body>
+    <!-- 头部公共样式 -->
+    <div id="top"></div>
+    <div class="container">
+        <div class="title">
+            <span>订单</span>
+            <span>></span>
+            <span>订单详情</span>
+        </div>
+       
+        <table>
+            <thead>
+                <th class="num">序号</th>
+                <th class="num">收货人</th>
+                <th>商品详情</th>
+                <th>联系电话</th>
+                <th>收货地址</th>
+                <th>订单总价</th>
+                <th>订单编号</th>
+            </thead>
+            <tbody class="content">
+                
+            </tbody>
+        </table>
+        <div class="mask">
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $('#top').load('aside.html');
+    </script>
+    <script src="../js/order.js"></script>
+</body>
+
+</html>

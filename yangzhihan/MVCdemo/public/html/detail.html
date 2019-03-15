@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>萌热MOEHOT</title>
+    <link href="../img/favicon.ico" rel="shortcut icon">
+    <!-- 设置icon -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../layer-v3.1.1/layer/layer.js"></script>
+</head>
+
+<body>
+    <!-- top栏 -->
+    <div id="head"></div>
+    <!-- 商品信息 -->
+    <div class="bannerSlide">
+        <div class="main_div">
+            <!-- 头部 -->
+            <div class="crumbs">
+                <a href="../html/help.html">首页</a>
+                <span class="forGt"></span>
+                <span class="catesatn">商品详情页</span>
+            </div>
+            <!-- 详情 -->
+            <div class="dealer">
+                <div class="dealerDiv">
+                    <!-- 详情页头部左侧 -->
+                    <div class="dealer-left fl">
+                        <!-- 放大镜区域 -->
+                        <div class="jsder">
+                            <div class="tb-booth tb-pic" id="pictures">
+                                <div id="objmask"></div>
+                                <!-- <a href="###">
+                                    <img src="../img/detail-main.jpg" alt="" style="max-width: 100%;max-height: 100%; cursor: crosshair"
+                                        id="jqzooms">
+                                </a>
+                                <div id="mask"></div>  -->
+                            </div>
+                            <div id="jsder_show">
+                                <img src="" alt="">
+                            </div>
+                            <div class="proImg">
+                                <div class="slides_container">
+                                    <ul class="tb-thumb">
+                                        <!-- <li class="tb-selected" onclick="select(this)">
+                                            <div class="tb-pic">
+                                                <a href="###" style="cursor: pointer;">
+                                                    <img src="../img/detail-big.jpg" alt=""></a>
+                                            </div>
+                                        </li>
+                                        <li class="tb-selected" onclick="select(this)">
+                                            <div class="tb-pic">
+                                                <a href="###" style="cursor: pointer;">
+                                                    <img src="../img/detail-pic1.jpg" alt=""></a>
+                                            </div>
+                                        </li>
+                                        <li class="tb-selected" onclick="select(this)">
+                                            <div class="tb-pic">
+                                                <a href="###" style="cursor: pointer;">
+                                                    <img src="../img/detail-pic2.jpg" alt=""></a>
+                                            </div>
+                                        </li>
+                                        <li class="tb-selected" onclick="select(this)">
+                                            <div class="tb-pic">
+                                                <a href="###" style="cursor: pointer;">
+                                                    <img src="../img/detail-pic3.jpg" alt=""></a>
+                                            </div>
+                                        </li>
+                                        <li class="tb-selected" onclick="select(this)">
+                                            <div class="tb-pic">
+                                                <a href="###" style="cursor: pointer;">
+                                                    <img src="../img/detail-pic4.jpg" alt=""></a>
+                                            </div>
+                                        </li> -->
+                                    </ul> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 收藏 -->
+                        <div class="share">
+                            <a href="" class="sharediv_left">
+                                收藏宝贝（1人气）
+                            </a>
+                            <span class="clos_line">
+                                <img src="../img/detail-share2.png" alt="">
+                            </span>
+                            <a href="" class="sharediv_lefts">分享</a>
+                        </div>
+                    </div>
+                    <!-- 详情页右侧商品详情 -->
+                    <div class="dealer-right fl">
+                        <span class="introduce">
+                            【特典】Love Live! Sunshine!! 庆生企划 黑泽黛雅 1/8比例手办完成品
+                        </span>
+                        <!-- 价格 预售 定金-->
+                        <div class="cost_div fl">
+                            <div class="earnestMoney fl">
+                                <div class="sortPrise">
+                                    <span>售价</span>
+                                    <span class="Money">
+                                        <font id="pricere">￥893.00</font>
+                                    </span>
+                                    <div class="deposit">
+                                        <span>定金</span>
+                                        <span style="font-family:microsoft yahei;" id="okprice"> ￥ 267.90</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- 日期 -->
+                        <div class="deta_div fl">
+                            <p class="deta_divtext fl" style="line-height:42px;">
+                                <span>商品编号</span>
+                                <span class="number_">4942330099896</span>
+                            </p>
+                            <div class="serviceImg">
+                                <img src="../img/detail-servace.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 版本 库存-->
+                        <div class="select_Div fl">
+                            <div class="goodsSk">
+                                <p>
+                                    <span class="goodverson">版本</span>
+                                    <span class="width_coll">
+                                        日版
+                                    </span>
+                                </p>
+                                <p>
+                                    <span class="goodsstatus fl">分类</span>
+                                    <span class="width_coll goodscoll fl">
+                                        手办
+                                    </span>
+                                </p>
+                                <p class="lin-hk">
+                                    <span class="goodscount">数量</span>
+                                    <i class="quantity">
+                                        <input type="text" class="text fl" id="checkStock" value="1" min="1">
+                                        <input type="button" value="" class="buttonup">
+                                        <input type="button" value="" class="buttondow">
+                                    </i>
+                                    <span class="limited fl">
+                                        库存:
+                                        <font class="scort">6</font>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 添加购物车 -->
+                        <div class="buy-limited">
+                            <div class="button">
+                                <a href="###" class="immediately">立即购买</a>
+                                <a class="shoppingCar" onmouseup="go(this)">加入购物篮</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 右侧图片 -->
+                    <div class="morepic">
+                        <img src="../img/detail-right.png" alt="">
+                        <img src="../img/detail-r2.jpg" alt="">
+                        <img src="../img/detail-r3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- 商品详情 -->
+            <div class="particularsTab">
+                <div class="tb-a">
+                    <a href="###" class="background_Top">商品详情</a>
+                    <a href="###" id="bordeLr1" class="bordeLr">
+                        累计评价
+                        <span>(0)</span>
+                    </a>
+                    <a href="###" id="bordeLr2" class="bordeLr">
+                        商品咨询
+                        <span>(0)</span>
+                    </a>
+                </div>
+                <div class="show fl">
+                    <!-- 商品详细信息 -->
+                    <div id="goodsDEtail" class="goodsDEtail" style="width:98%;padding:1%;font-size: 12px;">
+                        <!-- 商品基本信息展示 -->
+                        <div class="goodsInfo">
+                            <ul>
+                                <li>
+                                    <b>商品货号</b>
+                                   <span class="detail_num"> ：4942330099896</span>
+                                </li>
+                                <li>
+                                    <b>作品名称</b>
+                                   <span class="detail_name">：lovelived!</span> 
+                                </li>
+                                
+                                   
+                            </ul>
+                        </div>
+                        <p>附：透明文件夹，人物信息卡特典</p>
+                    </div>
+                    <!-- 没有评价 -->
+                    <div id="particulars1" class="particulars1">
+                        <div class="reviewData">
+                            <div class="Imgtext">
+                                <div>
+                                    <img src="../img/detail-failure.png" alt="">
+                                    <p>没有任何评论哦~</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 没有咨询 -->
+                    <div id="particulars2" class="particulars1 ">
+                        <div class="reviewData">
+                            <div class="Imgtext">
+                                <div>
+                                    <img src="../img/detail-failure.png" alt="">
+                                    <p>没有任何咨询哦~</p>
+                                </div>
+                            </div>
+                            <i class="excuse">我想咨询</i>
+                            <textarea name="" id="" cols="30" rows="10" maxlength="150" id="myComment"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- foot栏 -->
+    <iframe src="baseHtml/foot.html" frameborder="1" width="100%" scrolling="no" height="194px"></iframe>
+    <!-- 引入head -->
+    <script>
+        $('#head').load('baseHTML/head.html');
+        function select(obj) {
+            obj.style.backgroundColor = '#ff7900';
+        }
+        $('.background_Top').on('click', function () {
+            $('#goodsDEtail').css('display', 'block');
+            $('#particulars1').css('display', 'none');
+            $('#particulars2').css('display', 'none');
+            $(this).css('background', '#ff7100');
+            $('#bordeLr1').css('background', '#f9f7f8');
+            $('#bordeLr2').css('background', '#f9f7f8');
+        })
+        $('#bordeLr1').on('click', function () {
+            $('#goodsDEtail').css('display', 'none');
+            $('#particulars1').css('display', 'block');
+            $('#particulars2').css('display', 'none');
+            $(this).css('background', '#ff7100');
+            $('.background_Top').css('background', '#f9f7f8');
+            $('#bordeLr2').css('background', '#f9f7f8');
+        })
+        $('#bordeLr2').on('click', function () {
+            $('#goodsDEtail').css('display', 'none');
+            $('#particulars1').css('display', 'none');
+            $('#particulars2').css('display', 'block');
+            $(this).css('background', '#ff7100');
+            $('#bordeLr1').css('background', '#f9f7f8');
+            $('.background_Top').css('background', '#f9f7f8');
+        })
+       
+        function select(obj){
+   
+           var img_ = obj.getElementsByTagName('img')[0];
+           jqzooms.src = img_.src;
+           BigImg.src = img_.src;
+           var lis = document.getElementsByClassName('tb-selected');
+           for(var i = 0;i < lis.length;i++){
+               lis[i].style.borderColor = '#CDCDCD';
+           }
+           var ele = obj.style.borderColor= '#ff7900';
+        }
+    </script>
+    <script src="../js/detail.js"></script>
+</body>
+
+</html>

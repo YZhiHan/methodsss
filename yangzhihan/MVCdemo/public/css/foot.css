@@ -1,0 +1,37 @@
+.foot{
+    width: 100%;
+    overflow: hidden;
+}
+.quickLinks{
+    background-color: #757575;
+    height: 125px;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+.foot ul{
+    width: 1338px;
+    margin: 0 auto;
+    max-width: 1338px;
+    height: 100%;
+}
+.foot ul>li{
+    float: left;
+    width: 223px;
+    text-align: center;
+}
+.foot ul>li>a{
+    display: block;
+    padding-top: 14px;
+}
+.foot ul>li>a:first-child{
+    padding-top: 25px;
+    font-weight: bold;
+}
+.copyRight{
+    height: 44px;
+    color: #fff;
+    text-align: center;
+    background-color: #272727;
+    line-height: 44px;
+    font-family: SimSun;
+}

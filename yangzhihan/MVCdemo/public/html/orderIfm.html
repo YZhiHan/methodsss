@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>萌热MOEHOT</title>
+    <link href="../img/favicon.ico" rel="shortcut icon">
+    <!-- 设置icon -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/homes.css">
+    <link rel="stylesheet" href="../css/orderIfm.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- 省市区 -->
+    <script src="../js/distpicker-master/distpicker.js"></script>
+    <script src="../../layer-v3.1.1/layer/layer.js"></script>
+</head>
+
+<body>
+    <!-- top栏 -->
+    <div id="head" style="margin-bottom:10px"></div>
+    <!-- main -->
+    <div class="main">
+        <!-- 头部 -->
+        <div class="tab clearfix">
+            <div class="tab-title fl">购物车</div>
+            <div class="tab-items clearfix fl">
+                <div class="item on">
+                    <span class="itemNum">1</span>
+                    <span class="itemWord">确认购物清单</span>
+                </div>
+                <div class="item on two">
+                    <span class="itemNum">2</span>
+                    <span class="itemWord">确认订单信息</span>
+                </div>
+                <div class="item">
+                    <span class="itemNum">3</span>
+                    <span class="itemWord">成功提交订单</span>
+                </div>
+                <div class="item">
+                    <span class="itemNum">4</span>
+                    <span class="itemWord">订单支付</span>
+                </div>
+            </div>
+        </div>
+        <!-- 订单标题 -->
+        <div class="order-title clearfix">
+            <span>填写/核对订单信息</span>
+        </div>
+        <div class="content">
+            <div class="content-wrap">
+                <div class="address-title">选择收货地址和收件人</div>
+                <!-- 收货地址 -->
+                <div class="address-list clearfix">
+                    <div class="items fl">
+                       
+                        <!-- <div class="item clearfix">
+                            <p class="tag"></p>
+                            <p>
+                                <span class="name">xiaoxiao</span>
+                                &nbsp;收
+                            </p>
+                            <p class="address">
+                                西安市雁塔区<br>枫韵蓝湾
+                            </p>
+                            <p class="phone">19999999999</p>
+                        </div> -->
+                    </div>
+                    <div class="btns fl">
+                        <span class="newAddr">使用新地址</span>
+                    </div>
+                </div>
+                <!-- 订单列表 -->
+                <div class="order-tab">
+                    
+                    
+                    <!-- <div class="order-tab-main clearfix">
+                        <a class="img fl">
+                            <img src="../img/cart-list-li1.jpg" alt="">
+                        </a>
+                        <a class="name fl">【食玩】轻松熊 Flower Tea Cup（盒装6个入）</a>
+                        <div class="total">
+                            <span class="totalName">
+                                <span>规格：</span>
+                                <span>整盒</span>
+                            </span>
+                        </div>
+                        <div class="onePrise">287</div>
+                        <div class="num">10</div>
+                        <div class="allPrise">2870</div>
+                    </div>
+                    <div class="order-tab-font">
+                        <div>
+                            <span class="num">10</span>
+                            件商品，总商品金额：
+                            <span class="prise">￥10000</span>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- 订单备注 -->
+                <div class="order-remarks">
+                    <span>订单备注</span>
+                    <input type="text" placeholder="选填，可填写您与卖家达成一致的要求">
+                </div>
+                <div class="orderBtn clearfix">
+                    <a  class="fr submitAll ">确认并提交订单</a>
+                    <div class="totalAllPart fr">
+                        应付金额：
+                        <span>
+                            ￥
+                            <span class="AllPrice">0</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 添加新地址弹窗 -->
+    <div class="newAddre">
+        <div class="mask">
+            <div class="mask-title">
+                <span>添加新地址</span>
+                <a class="close"></a>
+            </div>
+            <div class="mask-cont">
+                <table style="margin-left: 59px;">
+                    <tbody>
+                        <tr>
+                            <td>收货人姓名</td>
+                            <td>
+                                <input type="text" placeholder="请输入收货人姓名" class="inputs" id="name_">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>所在地区</td>
+                            <td>
+                                <div data-toggle="distpicker">
+                                    <select data-province="&nbsp;选择省" id="province"></select>
+                                    <select data-city="&nbsp;选择市" id="city"></select>
+                                    <select data-district="&nbsp;选择区" id="county"></select>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>详细地址</td>
+                            <td>
+                                <input type="text" placeholder="请输入详细地址" class="inputs" id="address">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>移动电话</td>
+                            <td>
+                                <input type="text" placeholder="请输入手机号码" class="inputs" id="phone_">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                                <label for="">
+                                    <input type="checkbox" class="mr">
+                                    设为默认地址
+                                </label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- 提交 -->
+                <div class="addreBtn">确定</div>
+            </div>
+        </div>
+    </div>
+    <!-- foot栏 -->
+    <iframe src="baseHtml/foot.html" frameborder="1" width="100%" scrolling="no" height="194px"></iframe>
+    <!-- 引入head -->
+    <script>
+        $('#head').load('baseHTML/head.html');
+
+    // 页面基本操作逻辑
+        // 打开模态框
+        $('.newAddr').click(function(){
+            $('.newAddre').css('display','block');
+        })
+        // 关闭模态框
+        $('.close').click(function(){
+            $('.newAddre').css('display','none');
+        })
+    </script>
+    <script src="../js/orderIfm.js"></script>
+</body>
+
+</html>

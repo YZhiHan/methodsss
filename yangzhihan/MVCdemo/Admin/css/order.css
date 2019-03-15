@@ -1,0 +1,58 @@
+.container{
+    padding-left: 155px;
+    padding-top: 13px;
+    font-family: "Microsoft YaHei" !important;
+}
+.container .title span{
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(93, 91, 91);
+}
+.container .orderbody{
+    width: 1169px;
+    margin:20px 0 0 10px;
+    border: 1px solid rgb(216, 219, 221);
+}
+.container .orderhead{
+    width: 1169px;
+    padding: 8px 0;
+    background: rgb(239, 245, 250);
+    display: -webkit-flex;
+    justify-content: flex-start;
+}
+.container .orderhead>div{
+   width: 230px;
+   text-align: center;
+}
+.orderinfor{
+    width: 1169px;
+    padding: 8px 0px;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    height: 50px;
+    border-bottom: 1px solid rgb(216, 219, 221);
+    line-height: 30px;
+}
+.container .orderinfor>div{
+    width: 230px;
+    text-align: center;
+ }
+ .orderinfor .address{
+     width: 300px !important;
+ }
+ .container .orderinfor>div>span{
+     color: blue !important;
+     padding-right:30px !important; 
+ }
+ .btn{
+     width: 100px !important;
+ }
+ .num{
+     width: 100px !important;
+ }
+ ul{
+     padding-bottom:20px; 
+ }
+ ul li{
+     text-align: left;
+ }

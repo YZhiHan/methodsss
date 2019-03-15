@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/productList.css">
+    <link rel="stylesheet" href="../myPagination/myPagination.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <style>
+    .thead{
+        text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+    <!-- 引入公共样式 -->
+    <div id="top"></div>
+    <div class="container">
+      
+        <div class="title">
+        <span>商品</span>
+        <span>></span>
+        <span>商品列表</span>
+    </div>
+    <div style="padding-bottom:100px;">
+        <div class="listhead">
+          <a href="Publish.html"><input type="button" value="发布商品" class="active"></a>
+          <!-- <select name="" id="searchs"></select><span>查询</span> -->
+        </div>
+        <div class="listbody">
+            <div class="thead">
+                    <div style="text-align:center;">序号</div>
+                <div style="text-align:center;">商品名称</div>
+                <div style="text-align:center;">商品图片</div>
+                <div class="titles1" style="text-align:center;">商品库存</div>
+                <div class="titles2" style="text-align:center;">商品编号</div>
+                <div class="titles3" style="text-align:center;">商品售价</div>
+                <div class="titles4" style="text-align:center;">商品分类</div>
+                <div class="titles5" style="text-align:center;">商品描述</div>
+                <div  class="titles6" style="text-align:center;">是否上架</div>
+                <div style="text-align:center;"  class="titles7">操作</div>
+            </div>
+            <!-- 数据 -->
+            </div>
+
+        </div>
+        <!-- 添加图片框 -->
+        <div class="mask">
+            <div class="title">添加详情图片</div>
+            <div class="wrap">
+                <!-- 1 -->
+                <!-- <dl>
+                    <dt style="width:200px;" class="fl">
+                        <form action='' enctype="multipart/form-data" id="uploadForm">
+                            <input type="file" name="uploadFile" id="upload_file1" style="margin-bottom:10px;">
+                        </form>
+                    </dt>
+                    <dd style="width:110px" class="fl">
+                        <input type="button" value="one" style="width:100px" onclick="uploadPic(this)">
+                    </dd>
+                </dl> -->
+                <!-- 2 -->
+                <!-- <dl>
+                    <dt style="width:200px;" class="fl">
+                        <form action='' enctype="multipart/form-data" id="uploadForm">
+                            <input type="file" name="uploadFile" id="upload_file2" style="margin-bottom:10px;">
+                        </form>
+                    </dt>
+                    <dd style="width:110px" class="fl">
+                        <input type="button" value="two" style="width:100px" onclick="uploadPic(this)">
+                    </dd>
+                </dl> -->
+                <!-- 3 -->
+                <!-- <dl>
+                    <dt style="width:200px;" class="fl">
+                        <form action='' enctype="multipart/form-data" id="uploadForm">
+                            <input type="file" name="uploadFile" id="upload_file3" style="margin-bottom:10px;">
+                        </form>
+                    </dt>
+                    <dd style="width:110px" class="fl">
+                        <input type="button" value="three" style="width:100px" onclick="uploadPic(this)">
+                    </dd>
+                </dl> -->
+                <!-- 4 -->
+                <!-- <dl>
+                    <dt style="width:200px;" class="fl">
+                        <form action='' enctype="multipart/form-data" id="uploadForm">
+                            <input type="file" name="uploadFile" id="upload_file4" style="margin-bottom:10px;">
+                        </form>
+                    </dt>
+                    <dd style="width:110px" class="fl">
+                        <input type="button" value="four" style="width:100px" onclick="uploadPic(this)">
+                    </dd>
+                </dl> -->
+                <button class="submitIMG" onclick="submitIMG()">提交</button>
+            </div>
+         </div> 
+    </div>
+          <!-- 分页 -->
+        <div id="pagination" class="pagination"></div>
+    </div>
+
+    <script src="../js/productList.js"></script>
+    <script src="../myPagination/myPagination.js"></script>
+    <script>
+     $('#top').load('aside.html');
+    </script>
+</body>
+</html>

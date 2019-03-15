@@ -1,0 +1,126 @@
+.container{
+    padding-left: 155px;
+    padding-top: 13px;
+}
+.title{
+    margin: 0  0 10px 0;
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+}
+.listhead{
+    margin: 20px 0 0 20px;
+}
+.listhead>input{
+    width: 80px;
+    padding: 5px 10px;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 3px;
+    background: rgb(230, 227, 227);
+    font-size: 12px;
+    margin-right: 10px;
+}
+.listhead .active{
+    background: rgb(30, 120, 238);
+    color: white;
+    border: none;
+    outline: none;
+}
+.listbody{
+    width: 95%;
+    display: table;
+    margin: 20px 0 0 20px;;
+    border: 1px solid #ccc;
+    font-size: 12px;
+   
+}
+.listbody .thead{
+    display: table-row;
+    background: rgb(213, 231, 248);
+    border-bottom: 1px solid #ccc;
+}
+.listbody .thead>div{
+    width: 224px !important;
+    /* text-align: left; */
+    padding: 2px;
+    display: table-cell;
+}
+.tbody{
+    background: white !important;
+    padding: 20px 0 !important;
+    display: table-row;
+    height: 50px;
+    line-height: 50px;
+}
+.tbody img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+.tbody>div{
+    display: table-column;
+}
+.tbody .change{
+    text-align: center !important;
+    margin-left: 40px;
+    width: 110px !important;
+}
+.tbody .change a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 10px;
+}
+.tbody input{
+    text-align: center !important;
+}
+.isup{
+   outline: none;
+   background: black;
+   color: white;
+   padding: 5px 0;
+   border: none;
+}
+.one{
+    width: 100px !important;
+}
+.mask{
+    position: absolute;
+    top: 300px;
+    left:500px;
+    background: rgb(216, 232, 252);
+    width: 500px;
+    padding: 10px;
+    display: none;
+}
+.mask dl{
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.submitIMG{
+    margin-left: 225px;
+    padding: 5px 20px;
+    background: rgb(53, 127, 211);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+tbody{
+    width: 90%;
+}
+tbody>tr{
+    width: 100%;
+    text-align: center;
+}
+tbody>tr>td{
+    width: 240px;
+}
+.changeimg{
+    width: 100%;
+    margin: 0;
+    height: 20px;
+    line-height: 0;
+    margin-top: -10px;
+    text-align: center;
+}
+    
